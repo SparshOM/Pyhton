@@ -8,5 +8,5 @@ def function(days,rate1):
     except:
         print("Not A number")
 
-function(30,50)
+function(days=input("Enter Days->"),rate1=input("Enter Rate->"))
 
