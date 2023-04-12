@@ -1,5 +1,5 @@
-li = []
-for x in range(1500,2700):
-    if (x%5 ==0) and (x%7==0):
-        li.append(x)
-print(li)
+l =[]
+for value in range(1500,2700):
+    if (value %3 == 0) and (value % 5==0):
+        l.append(value)
+print(l)
