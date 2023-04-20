@@ -1,4 +1,3 @@
-for x in range(1,100):
-    if x%3==0 and x%5==0:
-        print("FizzBuzz")
-        print(x)
+s = []
+s.extend([1,2,4,5])
+print(s) 
