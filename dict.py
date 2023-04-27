@@ -1,2 +1,4 @@
-d = {"emp":231, "Num": 911, "emp":"sparsh" }
-print(d["Num"])
+d = { }
+for key in range(1,11):
+    d[key] = key*key
+print(d)
