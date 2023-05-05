@@ -23,8 +23,7 @@
 #s1.difference_update(s)
 #print(s1)
 
-s1 = {100,200,300,400,500}
+#s1 = {100,200,300,400,500}
 #s2 = {300,400,500}
 #print(s1.issuperset(s2))
-
-print(min(s1),max(s1))
+#print(min(s1),max(s1))
