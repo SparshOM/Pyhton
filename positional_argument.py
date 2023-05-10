@@ -1,4 +1,4 @@
-def search(li,value):
+def linear_search(li,value):
     for num in li:
         if value == num:
             return True
@@ -7,5 +7,4 @@ def search(li,value):
     
 li = [100,200,300,400,500]
 value= int(input("Enter Value "))
-result = search(li,value)
-print(result)
+print(linear_search(li,value))
